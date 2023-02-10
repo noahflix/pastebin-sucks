@@ -1,0 +1,138 @@
+--//Commands
+cmds (Opens a list of commands)
+
+Mobility
+blink (Toggles blink)
+bs [Number] (Sets your blink speed)
+speed (Toggles speed)
+ws [Number] (Changes your sprint speed)
+jp [Number] (Sets your jump height)
+fs [Number] (Sets your flyspeed)
+infjump (Toggles infinite jump)
+airwalk (Toggles the airwalk keybind)
+noclip (Toggles noclip)
+to [Player] (Teleports you to the player)
+nostop (Toggles no stop / walkshoot)
+walk (Toggles walking while knocked)
+tpmode (Changes teleport mode)
+
+Combat
+s [Player] (Aimbots Player)
+ls [Player] (Loop aimbots Player)
+uns (Turns off aimbot)
+a [Player] (Aimlocks Player)
+una (Turns off aimlock)
+av [Number] (Sets your aimbot prediction velocity 1-10) (The higher your ping is the higher this should be)
+c / cam [Player] (Locks your camera onto Player)
+unc / uncam (Turns off camlock)
+bypass (Toggles semi-bfg bypass / god)
+antife (Turns on anti fe loop)
+respawn (Toggles respawning where you died)
+autor (Toggles auto reset when knocked)
+legit (Disables all visible pvp cheats)
+autostomp (Toggles auto stomp) (Stomps any knocked player if they're within stomp range)
+sr [Number] (Sets the stomp range of autostomp) (15 by default)
+shield [Player] (Constantly teleports you in front of the Player)
+unshield (Stops shielding)
+get [Item name] [Amount] (Gets amount of item for you)
+
+Local Stuff
+sort (Toggles inventory sorting) (Configure in the settings file)
+esp [Player] (ESPs the Player)
+esp (ESPs everyone)
+unesp [Player] (Un-ESPs the Player)
+unesp (Un-ESPs everyone)
+kos (Toggles kill on sight esp)
+buyer (Toggles buyer esp)
+items (Toggles items esp)
+rbullets (Toggles rainbow bullets)
+rtrails (Toggles rainbow bullet trails)
+chatspy (Toggles chatspy)
+maphide (Hides the whole map)
+tper (Toggles prison / ts teleporters)
+day (Toggles permanent day)
+night (Toggles permanent night)
+time (Returns normal day / night cycle)
+bar (Toggles barhide)
+stealer (Toggles the audio stealer gui)
+seats (Toggles no seats)
+
+Boombox Related
+pl [ID] (Plays the ID to your boombox)
+pl assetid[ID] (Plays the ID in assetversionid mode)
+re (Plays the last played ID)
+autoplay (Toggles autoplay / Plays the last id played using the pl command or audio library command and hides your radio upon spawn)
+clip (Copy the ID to your clipboard)
+sens [Number] (Changes the sensitivity of the radio and knife aura visualizers)
+
+Animations
+sit (Makes you sit)
+dance (Dance animation)
+dance2 (2nd dance animation)
+undance (Stops dancing)
+spin (Spin animation)
+unspin (Stops the spin animation)
+gunanims (Toggles custom gun animations)
+
+Miscellaneous
+view [Player] (View the player)
+unview (Stops viewing the player)
+vest [Player] (Checks if Player has the vest gamepass)
+stompspam (Toggles stomp spam)
+count [Tool] (Prints how many tools of given type Tool you have)
+unlock (Loop unlocks all doors around you) (Must be within ClickDetector range)
+lock (Loop locks all doors around you) (Must be within ClickDetector range)
+prefix [Character] (Sets the Audio Library prefix to Character)
+ay (Toggle annoying those posers)
+killph (Toggles kill phrase)
+phrase [Text] (Sets your kill phrase)
+suicidegun (Toggles suicide glock)
+deathnote (Toggles your death note)
+note [Text] (Sets your death note)
+rejoin (Rejoins the game)
+!prison (Teleports you to The Prison)
+!streets (Teleports you back to The Streets if you're not banned)
+exe [Script] (Executes the Script that you paste in)
+
+Requires Semi-Bfg Bypass
+savetools (Toggles tool saving upon death) (Can be used to dupe Glocks and Shottys) :x: **PATCHED** :x:
+add [Tool] (Adds the tool to the save / dupe list)
+remove [Tool] (Removes the tool from the save / dupe list)
+dupe [Number] (Dupes your tools automatically Number times) :x: **PATCHED** :x:
+stop (Stops duping)
+dupelist (Prints all tools on the dupe list)
+bfg (Toggles bfg)
+dualbfg (Toggles dual glock bfg) (Requires at least 3 glocks)
+claws (Toggles claws) (Requires at least 3 knives)
+kaura (Toggles knife aura)
+kauravis (Toggles kaura visualization)
+turnspeed [Number] (Changes how fast the knives of the kaura spin both horizontally and diagonally)
+offset [Number](Changes the size of the kaura's rings)
+turrets (Toggles turrets bfg) (Requires 32 shottys at minimum though it stacks all of your shottys)
+halo (Toggles energy sword bfg) (Requires 2 Shottys, 2 Glocks and 2 Knives which are optional) (Stacks guns if you have more than 2)
+bayonet (Toggles shotty bayonet)
+
+Prison Exclusive
+horse (Toggles horse) (Requires 8 Boomboxes, 8 Sprays, 4 Glocks and 2 Shottys)
+mecha (Toggles the mecha robot) (Requires: 48 Boomboxes, 7 Pipes and 2 Glocks)
+hitmarkers (Toggles hitmarkers)
+
+--//Keybinds
+; - Open the command bar
+E - Selects the player that you're pointing at with your cursor
+R - Fast drag
+C - Suicide
+X - Turns on aimbot on the player that you're pointing at with your cursor
+F - Toggle fly
+G - Toggle noclip
+B - Steals the decal of the victim
+T - Taunt
+Q - Toggle airwalk
+N - Toggle night vision
+P - Toggle mute and low gfx guis
+V - Open the local shotty skin / camo gui (See https://developer.roblox.com/api-reference/enum/Material for material names)
+
+Part Hider
+CTRL + X - Hides the part that your mouse is pointing at
+CTRL + C - Unhides the last part that you hid) (Works for all parts from top to bottom not just that 1 part that you last hid)
+CTRL + V - Unhides all parts
